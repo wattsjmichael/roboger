@@ -31,7 +31,10 @@ $(document).ready(function(){
         speechSynthesis.speak(msg);
         
 
+        $(".speech-bubble").show();
+        $(".speech-bubble:after").show();
         $("#result").text(joinedArray);
+        
         $("#result").show();
     });
 });

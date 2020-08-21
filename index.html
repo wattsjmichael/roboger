@@ -17,22 +17,26 @@
 <div>
     <form id="formOne">
     <div class="form-group">
-    <div class="col-8">
+    <div class = row>
+        <div class="col-4">
         <label for="number">Feed me numbers (0-20)</label>
         <input id="numberVal" class="form-control" type="number" min="0" max="20">
     </div>
     </div>
-    <div class="col-4">
+    <div class="col">
         <img src="img/robot.gif" alt="Robot Waving">
-    </div>  
+    </div>
+    <div class ="col">
+    <div class="speech-bubble">
+        <div id="result">
+        </div>
+    </div>
+    </div> 
         <button type="submit" class="btn btn-outline-danger">translate</button>
     </form>
     </div>
 </div>
-    <div class="container">
-    <div id="result">
-    </div>
-    </div>
+</div>
 
 </body>
 </html>
