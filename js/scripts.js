@@ -10,9 +10,10 @@ function robogerTranslate(number){
             } else {
                 output.push(i);
                 }
-
+                var msg =new SpeechSynthesisUtterance();
+                msg.txt= "My Browswer will say this sentence";
+                speechSynthesis.speak(msg);
         }
-        console.log(output);
         return output;
     };
         
@@ -28,6 +29,10 @@ $(document).ready(function(){
         let joinedArray = [];
         joinedArray.push(newArray.join(" "));
         
+        var msg =new SpeechSynthesisUtterance(joinedArray)
+        speechSynthesis.speak(msg);
+        
+
         $("#result").text(joinedArray);
         $("#result").show();
     });
