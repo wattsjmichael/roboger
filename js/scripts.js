@@ -3,6 +3,8 @@ function robogerTranslate(number){
     for (i =0; i<=number; i++){
         if (i.toString().includes(1)){
             output.push("beep!");
+            } else if (i.toString().includes(2)) {
+                output.push("boop!")
             } else {
                 output.push(i);
                 }
