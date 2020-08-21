@@ -22,8 +22,11 @@ $(document).ready(function(){
         
         let userInput =$("#numberVal").val();
         let newArray = robogerTranslate(userInput);
+        let joinedArray = [];
+
+        joinedArray.push(newArray.join(" "));
         
-        $("#result").text(newArray);
+        $("#result").text(joinedArray);
         $("#result").show();
     });
 });
