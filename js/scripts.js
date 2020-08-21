@@ -32,7 +32,6 @@ $(document).ready(function(){
         
 
         $(".speech-bubble").show();
-        $(".speech-bubble:after").show();
         $("#result").text(joinedArray);
         
         $("#result").show();
