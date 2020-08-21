@@ -7,19 +7,23 @@
     <script src="js/scripts.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Roboger Translator</title>
 </head>
 <body>
 <div class="container">
+    <div class="jumbotron">
 <h1>Mr. Roboger Translator 9000</h1>
+    </div>
 <div>
     <form id="formOne">
     <div class="form-group">
-        <label for="number">Feed me numbers!</label>
+    <div class="col-8">
+        <label for="number">Feed me numbers (0-20)</label>
         <input id="numberVal" class="form-control" type="number" min="0" max="20">
     </div>
+    </div>
         
-        <button type="submit" class="btn">translate</button>
+        <button type="submit" class="btn btn-outline-danger">translate</button>
     </form>
     </div>
 </div>
@@ -27,5 +31,6 @@
     <div id="result">
     </div>
     </div>
+
 </body>
 </html>
