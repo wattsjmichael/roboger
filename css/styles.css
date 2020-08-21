@@ -1,5 +1,23 @@
+.jumbotron {
+background-color:white;
+text-align: center;
+color:red;
+border-color: red;
+border-block: 10px, 10px, red;
+}
+
+#formOne {
+    margin:auto;
+    width: 50%;
+    text-align:center;
+    color:red;
+    background:white;
+    border-radius: 10%;
+}
+
 #result {
     display:none;
+
 }
 
 .speech-bubble {
@@ -9,9 +27,9 @@
     border-radius: .4em;
     padding: 15px;
     margin:15px;
+    color:black;
 }
 
-
-.row {
-    display:flex
+body {
+    background: black;
 }
