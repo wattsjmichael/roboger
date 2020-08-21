@@ -6,7 +6,7 @@
 
 ## Description
 
-A  HTML Website that translates intergers into Mr. Roboger's language.
+A  HTML Website that translates integers into Mr. Roboger's language.
 
 ## Setup
 
