@@ -10,7 +10,7 @@ function robogerTranslate(number){
             } else {
                 output.push(i);
                 }
- 
+
         }
         console.log(output);
         return output;
