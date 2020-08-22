@@ -2,8 +2,6 @@
 background-color:white;
 text-align: center;
 color:red;
-border-color: red;
-border-block: 10px, 10px, red;
 }
 
 #formOne {
@@ -11,8 +9,6 @@ border-block: 10px, 10px, red;
     width: 50%;
     text-align:center;
     color:red;
-    background:white;
-    border-radius: 10%;
 }
 
 #result {
@@ -23,11 +19,12 @@ border-block: 10px, 10px, red;
 .speech-bubble {
     display:none;
 	position: relative;
-	background: #00aabb;
+	background: #DC3545;
     border-radius: .4em;
     padding: 15px;
     margin:15px;
     color:black;
+    font-size: 25px;
 }
 
 body {

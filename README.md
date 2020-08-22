@@ -16,7 +16,7 @@ A  HTML Website that translates integers into Mr. Roboger's language.
 * Open with your favorite HTML Browser
 
 ## Website
-* [Programming Language Quiz](http://wattsjmichael.github.io/Programming-Language)
+* [Roboger Translator](http://wattsjmichael.github.io/Roboger.git)
 
 ## Specs
 * The program accepts only integers

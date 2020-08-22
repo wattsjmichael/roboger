@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -9,34 +10,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roboger Translator</title>
 </head>
+
 <body>
-<div class="container">
-    <div class="jumbotron">
-<h4>Mr. Roboger Translator 9000</h4>
-    </div>
-</div>
-<div>
     <div class="container">
-    <form id="formOne">
-    <div class="form-group">
+    <div class="jumbotron">
+        <h2>Mr. Roboger Translator 9000</h2>
+    </div>
+    </div>
+    <div class="container">
+        <form id="formOne">
+        <div class="form-group">
         <div class="col">
-        <label for="number">Feed me numbers (0-20)</label>
+        <div class="card text-center text-white bg-danger mb-3">
+        <div class="card-body">
+        <h4 class="card-title"><label for="number">Feed me numbers (0-20)</label></h4>
         <input id="numberVal" class="form-control" type="number" min="0" max="20">
         </div>
-</div>
-    <div class="container">
-        <div class="speech-bubble">
-            <div id="result">
-            </div>
         </div>
-    </div>
+        <div class="container">
+        <div class="speech-bubble">
+        <div id="result">
+        </div>
+        </div>
+        </div>
         <img src="img/robot.gif" alt="Robot Waving">
         <button type="submit" class="btn btn-outline-danger">Translate</button>
-    </form>
+        </form>
     </div>
-</div>
-</div>
-</div>
-
+    </div>
 </body>
 </html>
