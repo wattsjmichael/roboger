@@ -43,7 +43,7 @@ _OR_
 
 * The program replaces numbers that contain a 3: all digits are replaced wtih "Wont you be my neighbor?"
 >* Input: "4"
->* Output: "0, Beep!, Boop!, "Wont you be my neighbor?"
+>* Output: "0, Beep!, Boop!, "Wont you be my neighbor?, 4"
 
 ## Technologies Used
 
