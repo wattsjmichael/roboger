@@ -8,12 +8,18 @@
 
 A  HTML Website that translates integers into Mr. Roboger's language.
 
-## Setup
 
-* Clone Repository
-* Paste into VS Code
-* Save
-* Open with your favorite HTML Browser
+## Setup/Installation Requirements
+
+* _Navigate your broswer to https://github.com/wattsjmichael/Roboger.git
+* _Download the folder from this repository, and double click on the index.html file to open it in a Browser_
+
+_OR_
+
+* _Navigate in your console to a installation directory_
+* _Use the command git clone https://github.com/wattsjmichael/Roboger.git
+* _Open any of the files in the directory in your text editor for viewing/editing_
+* _Open the index.html file in your preferred browser or text editor preview function_
 
 ## Website
 * [Roboger Translator](http://wattsjmichael.github.io/Roboger.git)
@@ -39,9 +45,12 @@ A  HTML Website that translates integers into Mr. Roboger's language.
 >* Input: "4"
 >* Output: "0, Beep!, Boop!, "Wont you be my neighbor?"
 
+## Technologies Used
 
+_{languages used were : HTML, CSS, and JavaScript. The frameworks Bootstrap and jQuery were used for styling and behavior.}_
 
+### License
 
-## Legal
-Copyright (c) 2020 Michael Watts
-This software is licensed under MIT license.
+*{Open source under the MIT licence.}*
+
+Copyright (c) 2020 **_{Michael Watts}_**
